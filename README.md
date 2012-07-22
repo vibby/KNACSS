@@ -1,8 +1,10 @@
 KNACSS
 ======
-http://www.knacss.com/
 
-un framework CSS minimaliste qui claque sous la dent !
+Projet en ligne : http://www.knacss.com/
+Téléchargement : https://github.com/raphaelgoetter/KNACSS/downloads
+
+Un framework CSS minimaliste qui claque sous la dent !
 
 KNACSS est né d'un constat que nous faisons quotidiennement dans notre agence web :
 
@@ -23,3 +25,9 @@ En résumé :
 * Il n'est volontairement associé à aucun préprocesseur tel que LESS ou SASS parce que nous (Alsacréations) ne les employons pas systématiquement, mais rien ne vous en empêche.
 
 Plus d'info : http://www.knacss.com/
+
+Installation
+======
+
+Il n'y a pas d'installation à proprement parler. Ce n'est qu'un fichier CSS que vous pouvez appeler comme il se doit avec un élément link.
+Il contient une base minimale de styles prête pour débuter votre projet. Servez-vous en comme un "reset" et faites le évoluer selon votre projet.
