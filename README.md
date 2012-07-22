@@ -1,5 +1,6 @@
 KNACSS
 ======
+http://www.knacss.com/
 
 un framework CSS minimaliste qui claque sous la dent !
 
@@ -20,3 +21,5 @@ En résumé :
 * L'objectif est d'être complètement extensible et modulable selon vos projets,
 * Il est constitué d'un fichier CSS unique pour éviter des requêtes et des chargements inutiles,
 * Il n'est volontairement associé à aucun préprocesseur tel que LESS ou SASS parce que nous (Alsacréations) ne les employons pas systématiquement, mais rien ne vous en empêche.
+
+Plus d'info : http://www.knacss.com/
