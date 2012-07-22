@@ -3,7 +3,6 @@ KNACSS
 
 Projet en ligne : http://www.knacss.com/
 
-Téléchargement : https://github.com/raphaelgoetter/KNACSS/downloads
 
 Un framework CSS minimaliste qui claque sous la dent !
 
