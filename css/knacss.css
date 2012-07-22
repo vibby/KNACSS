@@ -5,8 +5,8 @@ Licence CC-BY http://creativecommons.org/licenses/by/3.0/fr/
 
 
 /* ----------------------------- */
-/* summary                      */
-/* --------------------------- */
+/* summary                       */
+/* ----------------------------- */
 /*
 1- colors
 2- reset
@@ -22,8 +22,8 @@ Licence CC-BY http://creativecommons.org/licenses/by/3.0/fr/
 */
 
 /* ----------------------------- */
-/* ==colors                     */
-/* --------------------------- */
+/* ==colors                      */
+/* ----------------------------- */
 
 
 /* ----------------------------- */
@@ -33,9 +33,9 @@ Licence CC-BY http://creativecommons.org/licenses/by/3.0/fr/
 /* base font-size corresponds to 10px */
 html {font-size: 62.5%;} 
 body {
-	background-color: #fff;
-	color: #000;
-	font-family: "Century Gothic", arial, helvetica, sans-serif;
+    background-color: #fff;
+    color: #000;
+    font-family: "Century Gothic", arial, helvetica, sans-serif;
 }
 
 /* HTML5 tags */
@@ -56,8 +56,9 @@ h5, .h5-like {font-size: 1.4em; } /* 14 pixels */
 
 /* avoid collapsing margins */
 h1:first-child, h2:first-child, h3:first-child, h4:first-child, h5:first-child, p:first-child {
-	margin-top: 0;
-} 
+    margin-top: 0;
+}
+
 /* avoid last paragraph bottom margin */
 p:last-child {margin-bottom: 0;} 
 
@@ -71,14 +72,15 @@ p:last-child {margin-bottom: 0;}
 
 /* max values */
 img, table, td, blockquote, code, pre, textarea, input, iframe, object, embed, video {
-	max-width: 100%; height: auto;
+    max-width: 100%; height: auto;
 }
+
 /* you shall not pass */
 textarea, table, td, th, code, pre, samp, div, p {
-	word-wrap: break-word;
+    word-wrap: break-word;
 }
 code, pre, samp {
-	white-space: pre-wrap;
+    white-space: pre-wrap;
 }
 
 /* links */
@@ -104,14 +106,14 @@ a img {border: 0;}
 
 
 /* ----------------------------- */
-/* ==layout and modules         */
-/* --------------------------- */
+/* ==layout and modules          */
+/* ----------------------------- */
 
 /*  switching box model for all elements */
 * { 
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;	
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;	
 }
 
 /* float layout */
@@ -121,44 +123,47 @@ a img {border: 0;}
 .line {} 
 /*  module, contains floats */
 .mod {
-	padding: 1em;
-} 
+    padding: 1em;
+}
+
 /* generaly inside .mod, can contains .item */ 
 .items {}
+
 /* fluid, contains floats, can be placed next to a float */
 .item { 
-	overflow: hidden;
+    overflow: hidden;
 }
 
 /* table layout */
 /* ------------------ */
 .row {
-	display: table;
-	table-layout: fixed;
-	width: 100%;
+    display: table;
+    table-layout: fixed;
+    width: 100%;
 }
 .row > *, .col {
-	display: table-cell;
-	padding: 1em;
+    display: table-cell;
+    padding: 1em;
 }
 
 /* 1em gutter between elements if parent is .gut */ 
 .line.gut > * + * { 
-	margin-left: 1em;
+    margin-left: 1em;
 }
 .row.gut > * + * { 
-	border-left: 1em solid #fff; /* must be color of parent background */
+    border-left: 1em solid #fff; /* must be color of parent background */
 }
 
 /* blocks that needs to be placed under floats */ 
 .clear, .line, .row {
-	clear: both;
-} 
+    clear: both;
+}
+
 /* blocks that can contains floats */ 
 .clearfix:after, .line:after, .mod:after {
-	content: "";
-	display: table;
-	clear: both;
+    content: "";
+    display: table;
+    clear: both;
 }
 
 /* alignments (blocks and inline) */
@@ -166,11 +171,12 @@ a img {border: 0;}
 
 /* left and 1em gutter */
 .left {
-	float: left; margin-right: 1em
-} 
+    float: left; margin-right: 1em
+}
+
 /* right and 1em gutter */
 .right {
-	float: right; margin-left: 1em
+    float: right; margin-left: 1em
 } 
 .center {margin: auto;}
 .txtleft {text-align: left;}
@@ -216,7 +222,7 @@ a img {border: 0;}
 
 /* hiding content */
 .visually-hidden { /* always hidden for screens */
-	position: absolute; left:-7000px; text-indent:-7000px; overflow: hidden
+    position: absolute; left:-7000px; text-indent:-7000px; overflow: hidden
 } 
 .desktop-hidden {display: none;}  /* hidden on desktop */
 .mobile-hidden {}  /* hidden on mobile */
@@ -224,74 +230,75 @@ a img {border: 0;}
 .phone-hidden {}  /* hidden on smartphones */
 
 /* ----------------------------- */
-/* ==header                     */
-/* --------------------------- */
+/* ==header                      */
+/* ----------------------------- */
 
 /* ----------------------------- */
-/* ==sidebar                    */
-/* --------------------------- */
+/* ==sidebar                     */
+/* ----------------------------- */
 
 /* ----------------------------- */
-/* ==footer                     */
-/* --------------------------- */
+/* ==footer                      */
+/* ----------------------------- */
 
 /* ----------------------------- */
-/* ==forms                      */
-/* --------------------------- */
+/* ==forms                       */
+/* ----------------------------- */
 
 /* ----------------------------- */
-/* ==main                       */
-/* --------------------------- */
+/* ==main                        */
+/* ----------------------------- */
 
 /* ----------------------------- */
-/* ==iefix                      */
-/* --------------------------- */
+/* ==iefix                       */
+/* ----------------------------- */
 
 /* haslayout for IE6/IE7 */
 .ie7 .clearfix,.ie7 .line, .ie7 .mod, .ie7 .row, .ie7 .col {
-	zoom: 1; 
+    zoom: 1; 
 }
+
 /* inline-block and table-cell for IE6/IE7 */
 .ie7 .btn, .ie7 .col { 
-	display: inline;
-	zoom: 1;
+    display: inline;
+    zoom: 1;
 }
 
 /* box-sizing for IE6/IE7 */
 /* https://github.com/Schepp/box-sizing-polyfill
 .ie7 *  {
-	behavior: url(/js/boxsizing.htc);
+    behavior: url(/js/boxsizing.htc);
 }
 */
 
 /* ----------------------------- */
-/* ==print                      */
-/* --------------------------- */
+/* ==print                       */
+/* ----------------------------- */
 
 /* print reset */
 @media print {
-	p, blockquote {orphans: 2;  widows: 2;}
-	blockquote, ul, ol {page-break-inside: avoid;}
-	h1, h2, h3, caption { page-break-after: avoid;}
+    p, blockquote {orphans: 2; widows: 2;}
+    blockquote, ul, ol {page-break-inside: avoid;}
+    h1, h2, h3, caption { page-break-after: avoid;}
 }
 
 /* ----------------------------- */
-/* ==mobile                     */
-/* --------------------------- */
+/* ==mobile                      */
+/* ----------------------------- */
 
 /* smartphone reset */
 @media (max-width: 640px) {
-	.phone-hidden {display: none}
-	.mod, .col {
-		display: block  !important;
-		margin: 0  !important;
-		border: 0  !important;
-		float: none !important;
-		width: auto !important;
-	}
-	[class*="mw"], [class*="w9"], [class*="w8"],
-	[class*="w7"], [class*="w6"], [class*="w5"],
-	[class*="w4"], [class*="w3"] {
-		width: auto;
-	}
+    .phone-hidden {display: none}
+    .mod, .col {
+    	display: block  !important;
+    	margin: 0 !important;
+    	border: 0 !important;
+    	float: none !important;
+    	width: auto !important;
+    }
+    [class*="mw"], [class*="w9"], [class*="w8"],
+    [class*="w7"], [class*="w6"], [class*="w5"],
+    [class*="w4"], [class*="w3"] {
+        width: auto;
+    }
 }
