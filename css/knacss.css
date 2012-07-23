@@ -36,6 +36,7 @@ body {
     background-color: #fff;
     color: #000;
     font-family: "Century Gothic", arial, helvetica, sans-serif;
+    line-height: 1.4; /* adapt to your design */
 }
 
 /* HTML5 tags */
@@ -245,6 +246,13 @@ a img {border: 0;}
 /* ==forms                       */
 /* ----------------------------- */
 
+form, fieldset {
+  border: none;
+}
+input, button, select {
+  vertical-align: middle; /* @bugfix alignment */
+}
+
 /* ----------------------------- */
 /* ==main                        */
 /* ----------------------------- */
@@ -275,7 +283,7 @@ a img {border: 0;}
 /* ==print                       */
 /* ----------------------------- */
 
-/* print reset */
+/* quick print reset */
 @media print {
     p, blockquote {orphans: 2; widows: 2;}
     blockquote, ul, ol {page-break-inside: avoid;}
@@ -286,7 +294,7 @@ a img {border: 0;}
 /* ==mobile                      */
 /* ----------------------------- */
 
-/* smartphone reset */
+/* quick smartphone reset */
 @media (max-width: 640px) {
     .phone-hidden {display: none}
     .mod, .col {
