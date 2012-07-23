@@ -50,7 +50,7 @@ ul, ol {padding-left: 2em}
 p, li, td, th, textarea {font-size: 1.4em;}
 li li, li p, td p, th p, li h1, li h2, li h3, li h4, li h5, li h6, input {font-size: 100%;}
 h1, .h1-like {font-size: 2.4em; } /* 24 pixels */
-h2, .h2-like {font-size: 2.0em; } /* 20 pixels */
+h2, .h2-like {font-size: 2em; } /* 20 pixels */
 h3, .h3-like {font-size: 1.8em; } /* 18 pixels */
 h4, .h4-like {font-size: 1.6em; } /* 16 pixels */
 h5, .h5-like {font-size: 1.4em; } /* 14 pixels */
